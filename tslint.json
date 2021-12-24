@@ -1,0 +1,27 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "array-type": [true, "array"],
+    "indent": [true, "spaces", 2],
+    "jsx-alignment": false,
+    "jsx-no-lambda": true,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "jsx-boolean-value": false,
+    "max-classes-per-file": false,
+    "no-bitwise": false,
+    "no-duplicate-imports": false,
+    "no-namespace": false,
+    "no-string-literal": false,
+    "no-submodule-imports": false,
+    "no-var-requires": false,
+    "object-literal-key-quotes": false,
+    "object-literal-sort-keys": false,
+    "switch-default": false,
+    "triple-equals": true,
+    "typedef-whitespace": false,
+    "no-implicit-dependencies": false,
+    "prettier": true
+  }
+}
